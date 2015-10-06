@@ -1,0 +1,23 @@
+.center {
+	text-align: center;
+}
+
+.compsci {
+	background-image: url("img/cs_bldg.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.see-through-50 {
+	opacity: 0.7;
+}
+
+.basic-content {
+	padding: 50px;
+	background-color: white;
+	opacity: 0.7;
+	overflow: hidden;
+}
