@@ -1,23 +1,47 @@
+.container {
+	background-color: #779ECB;
+}
+
 .center {
 	text-align: center;
 }
 
-.compsci {
-	background-image: url("img/cs_bldg.jpg");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100%;
-	position: relative;
-	overflow: hidden;
+.blue-background {
+	background-color: blue;
 }
 
-.see-through-50 {
-	opacity: 0.7;
+.purple-background {
+	background-color: purple;
 }
 
-.basic-content {
-	padding: 50px;
+.green-background {
+	background-color: green;
+}
+
+.red-background {
+	background-color: red;
+}
+
+.bob {
+	background-color: orange;
+}
+
+.white-background {
 	background-color: white;
 	opacity: 0.7;
-	overflow: hidden;
+	height: 100%;
+}
+
+.jumbotron {
+	color: white;
+	background-color: #779ECB;
+	border-radius: 0 !important;
+}
+
+.jumbotron h1 {
+	opacity: 0.7;
+}
+
+h3 {
+	padding: 3px;
 }
