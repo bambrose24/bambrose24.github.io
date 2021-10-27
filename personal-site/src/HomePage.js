@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container } from '@mui/material'
 import { useTheme } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
@@ -27,17 +28,17 @@ function HomePage() {
                     <br /><br />
                     I'm interested in making a positive difference in the world through technology while also having fun and not committing my entire self to work. If that sounds like you, please reach out to me at bambrose24 at gmail.
                 </Typography>
-                <Divider sx={{marginTop: "20px", marginBottom: "20px"}} />
+                <Divider sx={{ marginTop: "20px", marginBottom: "20px" }} />
                 <Typography variant="body1">
-                    Ok, phew, glad that's over. I generally loathe the hustle-y nature of personal websites. Unfortunately they are great at being a one-stop-shop for your professional background.
+                    Ok, phew, glad that's over. I generally loathe the hustle-y nature of personal websites. Unfortunately they are great at being a one-stop-shop for your professional background. Although this one isn't that full, it's a good start as I prepare to look for what I'm going to do next.
                 </Typography>
-                <Divider sx={{marginTop: "20px", marginBottom: "20px"}} />
+                <Divider sx={{ marginTop: "20px", marginBottom: "20px" }} />
                 <Typography variant="h5" sx={{ textAlign: "center", fontWeight: "bold", marginBottom: "5px" }}>Links</Typography>
                 <Typography variant="body1">
                     <ul>
-                        <li><a href="https://github.com/bambrose24">Github</a></li>
-                        <li><a href="https://linkedin.com/in/ambroserobert">LinkedIn</a></li>
-                        <li><a href="https://play-funtime.com">Funtime</a> (a NFL pickem pool built and designed by me)</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/bambrose24">Github</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/ambroserobert">LinkedIn</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://play-funtime.com">Funtime</a> (a NFL pickem pool built and designed by me)</li>
                     </ul>
                 </Typography>
             </Paper>
